@@ -379,6 +379,8 @@ section.section-feactures {
     justify-content: center;
 }
 .card{
+    -webkit-perspective: 150rem;
+    perspective: 150rem;
     height: 512px;
     position: relative;
     width: 327px;
