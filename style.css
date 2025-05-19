@@ -426,9 +426,13 @@ section.section-feactures {
 }
 .card:hover .__front-side{
     transform: rotateY(-180deg);
+    -webkit-perspective: 150rem;
+    perspective: 150rem;
 }
 .card:hover .__back-side{
     transform: rotateY(0deg);
+    -webkit-perspective: 150rem;
+    perspective: 150rem;
 }
 .card2-front .img{height: 221px;-webkit-clip-path: polygon(0 0 ,100% 0% ,100% 80%,0 100%);width: 100%;background-size: cover;background-blend-mode: screen;background-image: linear-gradient(to right bottom, #7ed56f, #28b485) ,url(../img/nat-6.jpg);/* background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8) , rgba(40, 180, 133, 0.8) ) ,url(../img/nat-6.jpg); */}
 .card3-front .img{height: 221px;-webkit-clip-path: polygon(0 0 ,100% 0% ,100% 80%,0 100%);width: 100%;background-size: cover;background-blend-mode: screen;background-image: linear-gradient(to right bottom, #2998ff, #5643fa),url(../img/nat-7.jpg);}
